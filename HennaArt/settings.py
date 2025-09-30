@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(o0obc^*dx!0n^9qkxxcptj5_3%m47$byx5b9)w+l$5z54qqe^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['henna-app-production.up.railway.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
