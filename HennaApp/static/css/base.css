@@ -83,6 +83,13 @@ header{
     font-weight: 700;
     transition: all .3s ease-in-out;
 }
+
+
+@media (max-width:600px) {
+    header{
+        height: 60vh;
+    }
+}
 @media (max-width:568px) {
     .hamburger{
         display: block;
@@ -116,4 +123,9 @@ header{
         left: 0;
     }
      
+}
+@media (max-width:380px) {
+    header{
+        height: 100vh;
+    }
 }
