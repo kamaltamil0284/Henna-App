@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm bg-secondary">
+        <nav class="navbar navbar-expand-sm">
             <div class="container">
                 <div class="navbar-brand p-0" style="height: 40px;">
                     <img src="{% static 'images/logo/logo.png' %}" alt="Henna" class="d-block w-100 h-100">
@@ -45,7 +45,16 @@
                 </ul>
             </div>
         </nav>
+        {% block landing %}
+        {% endblock landing %}
     </header>
+    <main class="container-fluid">
+        {% block main_content %}
+        {% endblock main_content %}
+    </main>
+    <footer>
+
+    </footer>
     <!-- Bootstrap js link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- Custom js -->
