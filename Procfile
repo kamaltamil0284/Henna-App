@@ -1,1 +1,1 @@
-web: gunicorn HennaArt.wsgi
+web: gunicorn HennaArt.wsgi:application
