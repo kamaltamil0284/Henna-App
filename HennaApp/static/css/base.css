@@ -166,6 +166,9 @@ header{
     align-items: center;
     justify-content: center;
 }
+figure{
+    margin: 0;
+}
 .card{
     border: none;
 }
