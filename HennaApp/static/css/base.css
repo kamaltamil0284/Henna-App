@@ -87,11 +87,75 @@ header{
     transition: all .3s ease-in-out;
 }
 
+
+/* About content */
+.container-fluid .container{
+    padding-top: 3rem;
+}
+.content-head{
+    text-align: center;
+}
+.content-head h1{
+    font-size: clamp(1.6rem,7vw,3rem);
+    font-weight: 600;   
+}
+.content-head h3{
+    font-size: clamp(.6rem,5vw,1.5rem);
+    margin: 20px 0;
+}
+.about-col .card{
+    height: 100%;
+    background-color: rgb(209, 166, 109);
+    color: #12263A;
+    padding: 20px 12px;
+    transition: all .5s ease-in-out;
+}
+.about-col .card p{
+    margin: 0;
+}
+.about-col .card:hover{
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5px);
+}
+
+
+/* Service content */
+.service-col .card{
+    min-height: 150px;
+    color: #12263A;
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    border: 2px solid #12263A;
+    transition: all .5s ease-in-out;
+}
+.service-col .card:hover{
+    color: white;
+    background-color: #12263A;
+}
+.service-col .card h4{
+    margin: 0;
+}
+.service-col .card p{
+    font-size: 14px;
+    color: white;
+    max-height: 0;
+    margin: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .5s ease-in-out;
+}
+.service-col .card:hover p{
+    margin-top: 8px;
+    max-height: 200px;
+    opacity: 1;
+}
 /* Footer */
 footer{
     color: white;
     background-color: #12263A;
     padding: 20px !important;
+    margin-top: 2%;
 }
 footer h3{
     font-size: clamp(1rem,3vw,1.2rem);
@@ -119,7 +183,6 @@ address p i{
 address, address p:last-child{
     margin-bottom: 0;
 }
-
 .social-links{
     gap: 16px;
     font-size: 20px;

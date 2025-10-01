@@ -3,8 +3,9 @@
 <!-- Landing page -->
 {% block landing %}
     {% include 'landing.html' %}
-{% endblock landing %}
-
-{% block main_content %}
-
+    {% endblock landing %}
+    
+{% block main_content %}    
+    {% include 'about_content.html' %}
+    {% include 'service_content.html' %}
 {% endblock main_content %}
