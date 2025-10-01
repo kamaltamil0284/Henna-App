@@ -3,10 +3,18 @@
 <!-- Landing page -->
 {% block landing %}
     {% include 'landing.html' %}
-    {% endblock landing %}
+{% endblock landing %}
     
-{% block main_content %}    
+{% block main_content %}
+    <!-- About content -->
     {% include 'about_content.html' %}
+    <!-- Service content -->
     {% include 'service_content.html' %}
+    <!-- Gallery content -->
     {% include 'gallery_content.html' %}
 {% endblock main_content %}
+
+<!-- Footer -->
+{% block footer %}
+    {% include 'footer_1.html' %}
+{% endblock footer %}

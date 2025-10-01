@@ -264,7 +264,7 @@ address, address p:last-child{
         left: 0;
     }
     .about-col .card, .service-col .card, .gallery-pics .card{
-        width: 80%;
+        width: 90%;
     }
 }
 @media (max-width:380px) {

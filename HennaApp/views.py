@@ -6,4 +6,4 @@ def Home(request):
     return render(request,'index.html')
 
 def About(request):
-    return render(request,'about.html')
+    return render(request,'about_page.html')
