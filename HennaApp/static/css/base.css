@@ -169,10 +169,9 @@ header{
     object-fit: cover;
     overflow: hidden;
     transition: all .3s ease-in-out;
-    scale: .9;
 }
 .card .card-img:hover{
-    scale: 1;
+    scale: 1.03;
 }
 /* Footer */
 footer{
@@ -256,7 +255,7 @@ address, address p:last-child{
     .navbar-nav.active{
         left: 0;
     }
-    .about-col .card, .service-col .card{
+    .about-col .card, .service-col .card, .gallery-pics .card{
         width: 80%;
     }
 }
