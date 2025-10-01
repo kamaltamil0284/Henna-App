@@ -103,6 +103,11 @@ header{
     font-size: clamp(.6rem,5vw,1.5rem);
     margin: 20px 0;
 }
+.about-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .about-col .card{
     height: 100%;
     background-color: rgb(209, 166, 109);
@@ -154,11 +159,23 @@ header{
     max-height: 200px;
     opacity: 1;
 }
+
+/* Gallery */
+.card .card-img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+.card .card-img:hover{
+    scale: 1.1;
+}
 /* Footer */
 footer{
     color: white;
     background-color: #12263A;
     padding: 20px !important;
+    padding-bottom: 0 !important;
     margin-top: 2%;
 }
 footer h3{
@@ -192,9 +209,12 @@ address, address p:last-child{
     font-size: 20px;
 }
 .copyrights{
-    margin: 10px 0px;
+    padding: 16px 0px 12px;
     color: white;
     text-align: center;
+}
+.copyrights p{
+    margin: 0;
 }
 @media (max-width:600px) {
     header{
@@ -214,7 +234,6 @@ address, address p:last-child{
     .hamburger.active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
-
     .navbar-nav{
         position: absolute;
         left: -100%;
@@ -233,8 +252,7 @@ address, address p:last-child{
     .navbar-nav.active{
         left: 0;
     }
-     /* Service content */
-    .service-col .card{
+    .about-col .card, .service-col .card{
         width: 80%;
     }
 }
