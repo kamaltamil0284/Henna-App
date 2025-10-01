@@ -161,14 +161,18 @@ header{
 }
 
 /* Gallery */
+.card{
+    border: none;
+}
 .card .card-img{
     aspect-ratio: 16/9;
     object-fit: cover;
     overflow: hidden;
     transition: all .3s ease-in-out;
+    scale: .9;
 }
 .card .card-img:hover{
-    scale: 1.1;
+    scale: 1;
 }
 /* Footer */
 footer{
