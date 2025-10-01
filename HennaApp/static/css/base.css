@@ -161,6 +161,11 @@ header{
 }
 
 /* Gallery */
+.gallery-pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card{
     border: none;
 }
