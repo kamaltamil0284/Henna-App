@@ -23,7 +23,7 @@
     --bs-gradient: none;
 }
 p{
-    font-size: 16px;
+    font-size: clamp(.75rem,1.3vw,1rem);
 }
 .navbar-nav{
     gap: 20px;
@@ -120,6 +120,11 @@ header{
 
 
 /* Service content */
+.service-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .service-col .card{
     min-height: 150px;
     color: #12263A;
@@ -137,7 +142,6 @@ header{
     margin: 0;
 }
 .service-col .card p{
-    font-size: 14px;
     color: white;
     max-height: 0;
     margin: 0;
@@ -229,7 +233,10 @@ address, address p:last-child{
     .navbar-nav.active{
         left: 0;
     }
-     
+     /* Service content */
+    .service-col .card{
+        width: 80%;
+    }
 }
 @media (max-width:380px) {
     header{
