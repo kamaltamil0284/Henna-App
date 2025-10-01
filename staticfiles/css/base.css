@@ -116,6 +116,10 @@ address p{
 address p i{
     margin-right: 6px;
 }
+address, address p:last-child{
+    margin-bottom: 0;
+}
+
 .social-links{
     gap: 16px;
     font-size: 20px;
