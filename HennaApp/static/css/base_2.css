@@ -113,13 +113,8 @@ p{
 table tr th, table tr td {
     font-size: clamp(.8rem,1.3vw,1rem);
 }
-table thead tr th {
-    text-align: center;
-}
-table tbody tr th {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+table tbody tr th{
+    background-color: #12263a44;
 }
 /* Footer */
 footer{
