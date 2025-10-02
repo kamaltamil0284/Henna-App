@@ -42,6 +42,7 @@ p{
     height: 50dvh;
     background-color: #ff983ede;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
