@@ -193,7 +193,11 @@ footer{
 .copyrights p{
     margin: 0;
 }
-
+.developer{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
 @media (max-width:568px) {
     .secondary-hero{
         height: 30dvh;

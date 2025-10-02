@@ -203,7 +203,7 @@ footer h3{
     margin: 0;
     font-size: clamp(12px,1.5vw,14px);
 }
-.foot-nav a:hover{
+.foot-nav a:hover , .developer:hover{
     color: rgba(255, 255, 255, 0.589);
 }
 address p{
@@ -221,12 +221,18 @@ address, address p:last-child{
     font-size: 20px;
 }
 .copyrights{
+    line-height: 1.5;
     padding: 16px 0px 12px;
     color: white;
     text-align: center;
 }
 .copyrights p{
     margin: 0;
+}
+.developer{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
 }
 @media (max-width:600px) {
     header{
