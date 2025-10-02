@@ -40,16 +40,15 @@ p{
 /* About page content */
 .secondary-hero{
     height: 50dvh;
-    background-color: #ff7700;
+    background-color: #ff983ede;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .hero-head{
     color: #12263A;
-    font-size: clamp(2rem, 5vw, 4rem);
+    font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 600;
-    animation: zoom-in 900ms 100ms ease-in-out forwards;
 }
 .container-fluid .container{
     padding-top: 3rem;
@@ -73,7 +72,6 @@ p{
     font-style: italic;
     text-indent: 0;
     text-align: center;
-    margin-top: 8px;
     margin-bottom: 20px;
 }
 .about-body .card{
@@ -107,6 +105,8 @@ p{
     color: rgb(7, 5, 121);
 }
 /* Service page content */
+
+
 /* Footer */
 footer{
     color: white;

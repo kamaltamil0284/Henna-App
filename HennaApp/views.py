@@ -7,3 +7,6 @@ def Home(request):
 
 def About(request):
     return render(request,'about_page.html')
+
+def Service(request):
+    return render(request,'service_page.html')
