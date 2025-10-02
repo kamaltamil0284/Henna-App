@@ -110,6 +110,10 @@ p{
 .service-tag p{
     text-align: center;
 }
+.table-header{
+    background-color: #12263A;
+    color: white;
+}
 table tr th, table tr td {
     font-size: clamp(.8rem,1.3vw,1rem);
 }
