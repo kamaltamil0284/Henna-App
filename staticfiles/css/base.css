@@ -89,7 +89,7 @@ header{
 
 
 /* About content */
-.container-fluid .container{
+.container-fluid .content-head{
     padding-top: 3rem;
 }
 .content-head{
@@ -263,8 +263,11 @@ address, address p:last-child{
     .navbar-nav.active{
         left: 0;
     }
+    .landing-page p{
+        margin: 20px 0 30px;
+    }
     .about-col .card, .service-col .card, .gallery-pics .card{
-        width: 80%;
+        width: 90%;
     }
 }
 @media (max-width:380px) {
