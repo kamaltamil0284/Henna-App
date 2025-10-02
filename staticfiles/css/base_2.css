@@ -51,6 +51,9 @@ p{
     font-size: clamp(2.5rem, 5vw, 4rem);
     font-weight: 600;
 }
+.service-tag p{
+    text-align: center;
+}
 .container-fluid .container{
     padding-top: 3rem;
 }
@@ -106,6 +109,25 @@ p{
     color: rgb(7, 5, 121);
 }
 /* Service page content */
+table thead{
+    color: white;
+    background-color: maroon ;
+}
+table tbody tr th{
+    background-color: #f1cdd9;
+}
+table tbody tr td,table thead tr th{
+    padding: 8px;
+}
+table tbody tr:nth-child(odd){
+    background-color: #cef0ce;
+}
+table tbody tr:nth-child(even){
+    background-color: #ebddce;
+}
+table tbody tr:hover{
+    background-color: #d4d1c9;
+}
 
 
 /* Footer */
