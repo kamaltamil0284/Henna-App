@@ -113,15 +113,73 @@ p{
 table tr th, table tr td {
     font-size: clamp(.8rem,1.3vw,1rem);
 }
-table tbody tr th{
-    background-color: #12263a44;
+
+.table tbody tr th {
+    background-color: #12263a44 !important;
 }
+.table tbody tr:hover td {
+    background-color: #12263a44 !important;
+}
+
+.btn-orange{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #ff7700;
+    --bs-btn-border-color: #ff7700;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #ec7004;
+    --bs-btn-hover-border-color: #d16302;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #d16302;
+    --bs-btn-active-border-color: #be5b03;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #ff7700;
+    --bs-btn-disabled-border-color: #ff7700;
+}
+.book-now{
+    margin-top: 30px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-btn{
+    padding: 10px 40px;
+    outline: none;
+    border-radius: 0;
+    font-weight: 700;
+}
+
+/* Gallery page */
+.gallery-pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+figure{
+    margin: 0;
+}
+.card{
+    border: none;
+}
+.card .card-img{
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.card .card-img:hover{
+    scale: 1.03;
+}
+
 /* Footer */
 footer{
     color: white;
     background-color: #12263A;
     padding: 12px !important;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .copyrights{
     padding: 16px 0px;

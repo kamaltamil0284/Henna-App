@@ -10,3 +10,6 @@ def About(request):
 
 def Service(request):
     return render(request,'service_page.html')
+
+def Gallery(request):
+    return render(request,'gallery_page.html')

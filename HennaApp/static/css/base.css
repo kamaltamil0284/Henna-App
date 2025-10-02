@@ -176,6 +176,7 @@ figure{
     aspect-ratio: 16/9;
     object-fit: cover;
     overflow: hidden;
+    cursor: pointer;
     transition: all .3s ease-in-out;
 }
 .card .card-img:hover{

@@ -1,0 +1,54 @@
+{% extends 'base_2.html' %}
+{% load static %}
+
+{% block landing %}
+    <section class="container-fluid secondary-hero">
+        <h2 class="hero-head">Gallery</h2>
+    </section>
+{% endblock landing %}
+<!-- Gallery page -->
+{% block main_content %}
+    <!-- Gallery section -->
+    <section class="container about-body">
+        <h2 class="mb-3">Welcome to Our Henna Gallery</h2>
+        <p>
+            Explore a curated collection of our finest henna designs — from traditional bridal mehndi to modern Arabic and Indo-Arabic styles. 
+            Each design reflects artistry, elegance, and cultural beauty. 
+            Whether it's for weddings, festivals, or special events, our gallery showcases the variety and creativity we bring to every hand.
+        </p>
+    </section>
+    <section class="container" id="gallery">
+        <div class="row g-4">
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt1.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt2.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt3.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt4.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt5.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+            <div class="col-md-4 gallery-pics">
+                <figure class="card">
+                    <img src="{% static 'images/gallery/HennaArt6.jpg' %}" alt="Henna Image" class="card-img">
+                </figure>
+            </div>
+        </div>
+    </section>
+{% endblock main_content %}
