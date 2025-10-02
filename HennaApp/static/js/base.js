@@ -12,3 +12,9 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", 
     navbar_nav.classList.remove("active");
 }))
 
+document.addEventListener("touchend", (e) => {
+    if (!navbar_nav.contains(e.target) && !hamburger.contains(e.target)) {
+        hamburger.classList.remove("active");
+        navbar_nav.classList.remove("active");
+    }
+});
