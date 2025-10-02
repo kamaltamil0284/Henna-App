@@ -6,6 +6,16 @@
     font-weight: 400;
     scroll-behavior: smooth;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+main{
+    flex: 1;
+    margin-bottom: 3%;
+}
 p{
     font-size: clamp(.75rem,1.3vw,1rem);
 }
@@ -183,7 +193,7 @@ footer{
     color: white;
     background-color: #12263A;
     padding: 12px !important;
-    margin-top: 5%;
+    margin-top: auto;
 }
 .copyrights{
     padding: 16px 0px;
